@@ -1,0 +1,31 @@
+{
+  "name": "loopback-shortid-mixin",
+  "version": "0.0.1",
+  "description": "shortId mixin to loopback",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FengYuHe/loopback-shortId-mixin.git"
+  },
+  "keywords": [
+    "shortId",
+    "shortid",
+    "loopback",
+    "mixin"
+  ],
+  "author": "FengYuHe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FengYuHe/loopback-shortId-mixin/issues"
+  },
+  "homepage": "https://github.com/FengYuHe/loopback-shortId-mixin#readme"
+}
