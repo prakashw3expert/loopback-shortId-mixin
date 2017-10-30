@@ -103,9 +103,9 @@ will return
 
 ```json
 {
-  name: 'foo',
-  type: 'bar',
-  id: 'rJ9ZE74AW'
+  "name": "foo",
+  "type": "bar",
+  "id": "rJ9ZE74AW"
 }
 ```
 
