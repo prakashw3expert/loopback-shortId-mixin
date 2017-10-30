@@ -8,9 +8,16 @@
     "debug": "^3.1.0",
     "shortid": "^2.2.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "coveralls": "^3.0.0",
+    "loopback": "^3.16.1",
+    "loopback-boot": "^2.27.0",
+    "nyc": "^11.2.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc ava test/*.test.js",
+    "report": "nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
