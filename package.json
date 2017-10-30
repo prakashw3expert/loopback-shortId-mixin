@@ -1,6 +1,6 @@
 {
   "name": "loopback-shortid-mixin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "shortId mixin to loopback",
   "main": "index.js",
   "dependencies": {

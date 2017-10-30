@@ -8,5 +8,6 @@ const Widget = app.models.Widget;
 
 test(async t => {
   const widget = await Widget.create({name: 'foo', type: 'bar'});
+  console.log(widget);
   t.true(shortid.isValid(widget.id));
 });
